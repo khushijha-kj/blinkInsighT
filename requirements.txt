@@ -1,0 +1,22 @@
+# BlinkIT Analytics - Master Requirements
+# This file is used for local virtual environment setup (venv).
+
+# Frontend UI
+streamlit
+plotly
+requests
+
+# Backend API
+fastapi
+uvicorn
+pydantic
+python-dotenv
+
+# Machine Learning & MLOps
+pandas
+scikit-learn
+lightgbm
+mlflow
+
+# Generative AI
+groq
