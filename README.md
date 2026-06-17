@@ -4,19 +4,11 @@ BlinkInsighT is an AI-powered full-stack data analytics and machine learning pla
 
 ## Architecture & Tech Stack
 
-![System Architecture](docs/blinkGPT_arch.png)
-![Rating Predictor Architecture](docs/Rating_Predictor_Arch.png)
-
 The repository is structured as a monorepo containing three primary layers:
 
 1. **Frontend (Streamlit)**: A stateful user interface for data visualization and interaction.
 2. **Backend API (FastAPI)**: A REST API that handles machine learning inference and LLM code-generation routing.
 3. **MLOps Pipeline (MLflow & LightGBM)**: Offline training scripts for the predictive models. Multiple models and hyperparameters were evaluated before selecting the best-performing LightGBM configurations for production.
-
-   *Model Evaluation & Feature Importance:*
-   
-   ![Model Comparison](deck/ml/pre/model_comparison_pre.png)
-   ![SHAP Feature Importance](deck/ml/pre/shap_bar_pre.png)
 
 ### Core Dependencies
 - **Data Processing**: Pandas, Scikit-learn
