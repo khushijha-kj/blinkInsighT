@@ -11,8 +11,9 @@ The repository is structured as a monorepo containing three primary layers:
 3. **MLOps Pipeline (MLflow & LightGBM)**: Offline training scripts for the predictive models. Multiple models and hyperparameters were evaluated before selecting the best-performing LightGBM configurations for production.
 
 ### Core Dependencies
-- **Data Processing**: Pandas, Scikit-learn
-- **Machine Learning**: LightGBM, MLflow
+- **Data Processing**: Pandas, Numpy
+- **Data Visualization**: Plotly, matplotlib, seaborn
+- **Machine Learning**: scikit-learn, LightGBM, MLflow
 - **Backend**: FastAPI, Uvicorn, Pydantic
 - **Frontend**: Streamlit, Plotly
 - **LLM Integration**: Groq API (LLaMA-3)
